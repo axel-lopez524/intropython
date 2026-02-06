@@ -16,6 +16,15 @@ while numero < 1 or numero > 100:
        
     
     
-print("numero valido: ",numero)  
+print("numero valido: ",numero) 
+
+bin = '' 
+i = numero
+
+while i > 0:
+       bin = str(i / 2) + bin
+       i = i //2
+       
+print("El valor en binario es: ",bin)
 
     
